@@ -9,6 +9,11 @@ namespace BinaryNumberStringForm
 
     class Program
     {
+        static void Main(string[] args)
+        {
+            Gene g = new Gene("11111111");
+            char h = g[3]
+        }
         static public char Invert(char s)
         {
             return ((s == '0') ? '1' : '0');
@@ -47,32 +52,30 @@ namespace BinaryNumberStringForm
                 }
             }
         }
-    }
 
-    //    class Program
-    //    {
-    //        //public string Number(int num)
-    //        //{
-    //        //    string result;
-    //        //    if(num < 286)
-    //        //    {
-    //        //        result = Convert.ToString(num);
-    //        //        return result;
-    //        //    }
-    //        //    return "not viable";
-    //        //}
-    //        //public string opposite(string Number)
-    //        //{
-    //        //    string result;
-    //        //    if ()
-    //        //    {
-    //        //        result =
-    //        //        return
-    //        //    }
-    //        //}
-    static void Main(string[] args)
-    {
 
+        //    class Program
+        //    {
+        //        //public string Number(int num)
+        //        //{
+        //        //    string result;
+        //        //    if(num < 286)
+        //        //    {
+        //        //        result = Convert.ToString(num);
+        //        //        return result;
+        //        //    }
+        //        //    return "not viable";
+        //        //}
+        //        //public string opposite(string Number)
+        //        //{
+        //        //    string result;
+        //        //    if ()
+        //        //    {
+        //        //        result =
+        //        //        return
+        //        //    }
+        //        //}
+       
+        //    }
     }
-    //    }
 }
