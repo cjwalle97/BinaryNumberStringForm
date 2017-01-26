@@ -12,7 +12,8 @@ namespace BinaryNumberStringForm
         static void Main(string[] args)
         {
             Gene g = new Gene("11111111");
-            char h = g[3]
+            Gene h = g;
+
         }
         static public char Invert(char s)
         {
